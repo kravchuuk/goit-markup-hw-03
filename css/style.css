@@ -498,6 +498,13 @@ ul {
     width: 126px;
     height: 48px;
 } */
+
+.project-cards{
+    padding-top: 65px;
+}
+.item .title-txt{
+
+}
 .button-secondary {
     padding-top: 12px ;
     padding-bottom: 12px ;
@@ -507,9 +514,24 @@ ul {
 .menu .list{
     margin-bottom: 332px;
 }
-.container-portfolio{
-    display: flex;
+.border .title{
+    padding-top: 32px;
+    padding-left: 16px;
+    max-width: 290px;
+
+}
+.border .title-txt{
+    padding-top: 8px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 .container-portfolio .list{
+    min-width: 1146px;
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 55px;
+    row-gap: 42px;
+}
+.container-portfolio{
+    margin-bottom: 120px;
 }
