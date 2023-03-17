@@ -30,7 +30,6 @@ p,h1,h2,h3,h4,h5,h6{
 
 address{
     font-style: normal;
-    
 }
 /* div{
     outline: 2px solid tomato;
@@ -138,7 +137,6 @@ ul {
 }
 .header-contacts .list{
     list-style: none;
-    position: absolute;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -203,12 +201,7 @@ ul {
     height: 600px;
     
 }
-.container-hero{
-    max-height: 120px;
-    max-width: 496px;
-    /* padding-bottom: 100px; */
 
-}
 .hero-title{
     background-color: var(--color-navy-blue-modal);
     font-weight: 700;
@@ -216,10 +209,10 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-white);
-    /* max-width: 496px    ; */
+    max-width: 496px;
+    margin-left: 325px;
     margin-bottom: 48px;
-    line-height: 1.1;
-    min-width: 496px;
+    line-height: 1.07;
 }
 
 /* !hero end */
@@ -259,6 +252,7 @@ ul {
     font-family: 'Roboto', sans-serif;
     color: var(--color-cloud);
     background-color: var(--color-ocean);
+    border: none;
 }
 .button-secondary{
     font-family: 'Roboto', sans-serif;
@@ -277,6 +271,7 @@ ul {
     font-family: 'Roboto', sans-serif;
     color: var(--color-cloud);
     background-color: var(--color-ocean);
+    border: none;
 }
 
 .section .title-txt{
@@ -313,6 +308,10 @@ ul {
 }
 .feature-item .title{
     text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
 }
 .feature-item{
     width: 264px;
@@ -348,9 +347,7 @@ ul {
     padding-bottom: 100px;
 }
 
-.footer-txt{
-    color: var(--color-cornflower);
-}
+
 .footer .logo{
     line-height: 1.17;
 }
@@ -396,8 +393,6 @@ ul {
 }
 .list .images{
     display: block;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    
 }
 
 .section .list{
@@ -416,7 +411,7 @@ ul {
 .hero{
     padding-top: 188px;
     padding-bottom: 188px;
-    background-color: var(--color-navy-blue);
+    background-color:var(--color-navy-blue);
 }
 .features{
     padding-top: 120px;
@@ -469,9 +464,10 @@ ul {
     
 }
 .item .title-txt{
-    display: block;
-    justify-content: center;
-    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
 }
 
 .section-4 .list{
@@ -489,7 +485,7 @@ ul {
 }
 .list-item .item{
     padding-bottom: 32px;
-    
+    border-radius: 0px 0px 4px 4px;;
 }
 .list .project-cards{
     width: 360px    ;
@@ -504,14 +500,19 @@ ul {
 }
 .footer .footer-txt{
     margin-top: 16px;
-    
+    color: var(--color-cornflower);
+    font-weight: 400;    
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    font-family: 'Roboto' , sans-serif;
 }
 .container-footer .footer-txt{
     width: 264px;
     height: 72px;
 }
 .section-portfolio .list{
-    padding-top: 65px;
+    margin-top: 65px;
 }
 .section-portfolio{
     padding-top: 96px;
@@ -541,12 +542,14 @@ ul {
 
 }
 .border .title-txt{
-    padding-top: 8px;
+    margin-top: 8px;
 }
 .container-portfolio .list{
-    min-width: 1146px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
+
+
+
